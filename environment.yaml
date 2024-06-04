@@ -1,0 +1,12 @@
+name: dvc-tutorial
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - dvc
+      - jupyter
+      - ipykernel
+  - ipykernel
+  - post-activate.sh

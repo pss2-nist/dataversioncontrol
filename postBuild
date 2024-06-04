@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    echo "Running on Linux"
+    echo "Note: Make postBuild executable using chmod +x postBuild "
+if [[ "$OSTYPE" == "msys" ]]; then
+    echo "Running on Windows"
+else
+    echo "Unsupported OS: $OSTYPE"
+# Initialize DVC in the repository
+dvc init
