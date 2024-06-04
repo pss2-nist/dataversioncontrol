@@ -10,4 +10,5 @@ else
     exit 1
 fi
 # Initialize DVC in the repository
+conda activate dvc-tutorial
 dvc init
