@@ -22,3 +22,6 @@ conda activate dvc-tutorial
 `
 jupyter notebook dvc_tutorial.ipynb
 `
+
+## Run the binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pss2-nist/dataversioncontrol/HEAD)

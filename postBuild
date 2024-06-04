@@ -10,5 +10,8 @@ else
     exit 1
 fi
 # Initialize DVC in the repository
-conda activate dvc-tutorial
-dvc init
+# conda activate dvc-tutorial
+if [ ! -d ".dvc" ]; then
+  dvc init
+fi
+python -m ipykernel install --user --name dvc-tutorial --display-name "DVC Tutorial"
