@@ -1,1 +1,0 @@
-python -m ipykernel install --user --name dvc-tutorial --display-name "DVC Tutorial"

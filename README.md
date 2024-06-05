@@ -6,11 +6,16 @@ dataversioncontrol
 git clone https://github.com/pss2-nist/dataversioncontrol.git
 `
 
-## Create the environment:
-Navigate to the "dataversioncontrol" folder and use the following command to set up the environment:
+Navigate to the "dataversioncontrol" folder 
+## Run setup.sh in WSL(if in windows) or Terminal:
+`
+source setup.sh
+`
+### Create the environment:
+You can instead manually create the environment by us the following command to set up the environment:
 
 `
-conda env create -f environment.yaml
+conda env create -f binder/environment.yaml
 `
 
 ## Activate the environment:
