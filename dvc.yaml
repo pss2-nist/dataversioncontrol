@@ -1,9 +1,0 @@
-stages:
-  prepare:
-    cmd: python prepare_data.py
-    deps:
-      - data/raw_data.csv
-    outs:
-      - data/processed_data.csv
-  train:
-    cmd: python train_model.py
