@@ -8,4 +8,6 @@ dependencies:
       - dvc
       - jupyter
       - ipykernel
+      - pillow
+      - numpy
   - ipykernel
