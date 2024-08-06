@@ -5,7 +5,7 @@ cd "$REPO_ROOT"
 
 conda env create -f binder/environment.yaml
 
-if conda activate dvc-tutoriall; then
+if conda activate dvc-tutorial; then
   echo "Activated environment: conda"
 else
   if source activate dvc-tutorial; then
