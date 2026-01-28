@@ -1,0 +1,6 @@
+outs:
+- md5: 16e9f59248f0469b6afd5cec5bd43483.dir
+  size: 7280030
+  nfiles: 3
+  hash: md5
+  path: example_subfolder
